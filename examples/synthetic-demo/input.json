@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "title": "城市通勤骑行安全配件市场：进入机会评估",
+    "slug": "urban-cycling-safety-accessories",
+    "mode": "industry",
+    "depth": "standard",
+    "asOf": "2026-06-30",
+    "currency": "CNY",
+    "synthetic": true,
+    "scope": "合成案例仅覆盖中国一二线城市、单程 3–15 公里的成人通勤骑行者，以及车灯、智能尾灯、可视化反光与轻量报警类安全配件；不包含整车、头盔、专业竞赛装备和儿童用品。"
+  },
+  "decision": {
+    "question": "一家已有运动户外渠道能力的品牌，是否应在未来 12 个月进入城市通勤骑行安全配件市场；若进入，应先验证哪一个细分机会？",
+    "audience": "新品与渠道负责人",
+    "horizon": "未来 12 个月"
+  },
+  "marketSizing": {
+    "method": "bottom_up",
+    "baseYear": 2026,
+    "forecastYear": 2029,
+    "cagr": 0.12,
+    "scenarios": {
+      "low": {
+        "eligibleCustomers": 800000,
+        "annualSpend": 360,
+        "serviceableShare": 0.28,
+        "attainableShare": 0.025
+      },
+      "base": {
+        "eligibleCustomers": 1200000,
+        "annualSpend": 420,
+        "serviceableShare": 0.35,
+        "attainableShare": 0.04
+      },
+      "high": {
+        "eligibleCustomers": 1800000,
+        "annualSpend": 520,
+        "serviceableShare": 0.42,
+        "attainableShare": 0.06
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "SYN-01",
+      "title": "合成行业需求基准",
+      "type": "research",
+      "status": "verified",
+      "independenceGroup": "synthetic-research-panel",
+      "asOf": "2026-06-30",
+      "locator": "examples/synthetic-demo/source-notes.md#syn-01",
+      "note": "用于演示市场规模与需求信号；非真实外部报告。"
+    },
+    {
+      "id": "SYN-02",
+      "title": "合成骑行者访谈摘要",
+      "type": "community",
+      "status": "reviewed",
+      "independenceGroup": "synthetic-user-interviews",
+      "asOf": "2026-06-20",
+      "locator": "examples/synthetic-demo/source-notes.md#syn-02",
+      "note": "12 名虚构用户的合成访谈信号。"
+    },
+    {
+      "id": "SYN-03",
+      "title": "合成渠道评论样本",
+      "type": "review",
+      "status": "reviewed",
+      "independenceGroup": "synthetic-marketplace-reviews",
+      "asOf": "2026-06-25",
+      "locator": "examples/synthetic-demo/source-notes.md#syn-03",
+      "note": "用于演示痛点频次，不对应任何真实平台导出。"
+    },
+    {
+      "id": "SYN-04",
+      "title": "合成竞品货架审计",
+      "type": "marketplace",
+      "status": "verified",
+      "independenceGroup": "synthetic-channel-audit",
+      "asOf": "2026-06-28",
+      "locator": "examples/synthetic-demo/source-notes.md#syn-04",
+      "note": "虚构品牌与 SKU，用于展示竞品评分。"
+    },
+    {
+      "id": "SYN-05",
+      "title": "合成行业协会备忘录",
+      "type": "association",
+      "status": "verified",
+      "independenceGroup": "synthetic-association",
+      "asOf": "2026-05-31",
+      "locator": "examples/synthetic-demo/source-notes.md#syn-05",
+      "note": "用于独立交叉验证；非真实协会材料。"
+    },
+    {
+      "id": "SYN-06",
+      "title": "合成品牌官网信息",
+      "type": "official",
+      "status": "verified",
+      "independenceGroup": "synthetic-brand-sites",
+      "asOf": "2026-06-29",
+      "locator": "examples/synthetic-demo/source-notes.md#syn-06",
+      "note": "虚构官网字段，演示一手来源。"
+    },
+    {
+      "id": "SYN-07",
+      "title": "待复核的社媒趋势信号",
+      "type": "community",
+      "status": "pending",
+      "independenceGroup": "synthetic-social-signal",
+      "asOf": "2026-06-30",
+      "locator": "examples/synthetic-demo/source-notes.md#syn-07",
+      "note": "故意保留为弱证据，用于展示评分封顶。"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "LumaRide（虚构）",
+      "positioning": "智能联动与高端设计",
+      "productBreadth": 7.5,
+      "channelStrength": 6.5,
+      "innovation": 9,
+      "brandTrust": 7,
+      "growthMomentum": 8,
+      "sourceIds": ["SYN-04", "SYN-06"]
+    },
+    {
+      "name": "CityBeam（虚构）",
+      "positioning": "大众通勤与高性价比",
+      "productBreadth": 8.5,
+      "channelStrength": 9,
+      "innovation": 5.5,
+      "brandTrust": 7.5,
+      "growthMomentum": 6.5,
+      "sourceIds": ["SYN-04", "SYN-05"]
+    },
+    {
+      "name": "NightLoop（虚构）",
+      "positioning": "夜骑社群与内容驱动",
+      "productBreadth": 5.5,
+      "channelStrength": 6,
+      "innovation": 7.5,
+      "brandTrust": 6,
+      "growthMomentum": 8.5,
+      "sourceIds": ["SYN-03", "SYN-06"]
+    },
+    {
+      "name": "SafeTrail（虚构）",
+      "positioning": "耐用与专业户外",
+      "productBreadth": 7,
+      "channelStrength": 7.5,
+      "innovation": 6,
+      "brandTrust": 8.5,
+      "growthMomentum": 5.5,
+      "sourceIds": ["SYN-04", "SYN-05"]
+    }
+  ],
+  "painPoints": [
+    {
+      "theme": "路口变道意图难被机动车识别",
+      "segment": "夜间通勤者",
+      "severity": 5,
+      "frequency": 4,
+      "sourceIds": ["SYN-02", "SYN-03"]
+    },
+    {
+      "theme": "车灯续航与亮度标称不一致",
+      "segment": "高频通勤者",
+      "severity": 4,
+      "frequency": 5,
+      "sourceIds": ["SYN-03", "SYN-04"]
+    },
+    {
+      "theme": "多件安全配件安装复杂、充电分散",
+      "segment": "新手骑行者",
+      "severity": 4,
+      "frequency": 4,
+      "sourceIds": ["SYN-02", "SYN-04"]
+    },
+    {
+      "theme": "雨天可靠性与防水等级难判断",
+      "segment": "全年通勤者",
+      "severity": 5,
+      "frequency": 3,
+      "sourceIds": ["SYN-03", "SYN-05"]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "OPP-01",
+      "title": "免布线的转向提示智能尾灯",
+      "targetSegment": "夜间与早晚高峰通勤者",
+      "description": "用可感知制动与手动转向提示的模块化尾灯，降低路口变道沟通成本，并把安装控制在五分钟内。",
+      "dimensions": {
+        "demand": 9,
+        "competitionGap": 8,
+        "feasibility": 8,
+        "urgency": 8
+      },
+      "sourceIds": ["SYN-02", "SYN-04", "SYN-05"],
+      "nextAction": "两周内完成 12–15 次夜间通勤观察与概念测试，并对比三种交互方式的理解率。"
+    },
+    {
+      "id": "OPP-02",
+      "title": "一体化安全配件充电与安装系统",
+      "targetSegment": "新手与共享空间居住者",
+      "description": "把前灯、尾灯和报警器统一为快拆底座与单一充电入口，减少安装和维护负担。",
+      "dimensions": {
+        "demand": 8,
+        "competitionGap": 7,
+        "feasibility": 7,
+        "urgency": 6
+      },
+      "sourceIds": ["SYN-02", "SYN-04"],
+      "nextAction": "制作低保真结构样机，验证装卸时间、丢失风险和可接受价格带。"
+    },
+    {
+      "id": "OPP-03",
+      "title": "雨季通勤安全套装",
+      "targetSegment": "南方城市全年通勤者",
+      "description": "以可验证防水、可视化和应急收纳为核心的季节性组合包，降低消费者判断成本。",
+      "dimensions": {
+        "demand": 7,
+        "competitionGap": 6,
+        "feasibility": 9,
+        "urgency": 7
+      },
+      "sourceIds": ["SYN-03", "SYN-05"],
+      "nextAction": "用现成 SKU 组合做小规模货架测试，观察组合转化和退货原因。"
+    },
+    {
+      "id": "OPP-04",
+      "title": "面向骑行社群的内容订阅服务",
+      "targetSegment": "城市夜骑社群组织者",
+      "description": "提供路线风险提示、装备清单和社群挑战的轻量内容订阅。",
+      "dimensions": {
+        "demand": 9,
+        "competitionGap": 9,
+        "feasibility": 8,
+        "urgency": 9
+      },
+      "sourceIds": ["SYN-07"],
+      "nextAction": "先验证真实留资和付费意愿；当前只有待复核社媒信号，不能据此立项。"
+    }
+  ]
+}
+

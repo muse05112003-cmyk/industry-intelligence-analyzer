@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Industry Intelligence Analyzer</title>
+  <desc id="desc">Evidence-gated market research, sizing and opportunity prioritization</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11182a"/>
+      <stop offset="1" stop-color="#3157c8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="640" rx="28" fill="url(#grid)"/>
+  <g transform="translate(86 86)">
+    <text x="0" y="0" fill="#aebff4" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">AI × COMMERCIAL ANALYTICS</text>
+    <text x="0" y="86" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="750">Industry Intelligence</text>
+    <text x="0" y="154" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="750">Analyzer</text>
+    <text x="0" y="215" fill="#d7dff3" font-family="Segoe UI,Arial,sans-serif" font-size="25">Evidence-gated research · Market sizing · Opportunity decisions</text>
+    <g transform="translate(0 294)">
+      <rect width="250" height="104" rx="16" fill="#ffffff" fill-opacity=".10" stroke="#ffffff" stroke-opacity=".18"/>
+      <text x="22" y="35" fill="#c4cdec" font-family="Segoe UI,Arial,sans-serif" font-size="16">MARKET MODEL</text>
+      <text x="22" y="75" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">TAM · SAM · SOM</text>
+    </g>
+    <g transform="translate(270 294)">
+      <rect width="250" height="104" rx="16" fill="#ffffff" fill-opacity=".10" stroke="#ffffff" stroke-opacity=".18"/>
+      <text x="22" y="35" fill="#c4cdec" font-family="Segoe UI,Arial,sans-serif" font-size="16">DECISION CONTROL</text>
+      <text x="22" y="75" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Evidence Gate</text>
+    </g>
+  </g>
+  <g transform="translate(860 112)">
+    <circle cx="160" cy="160" r="160" fill="#ffffff" fill-opacity=".06"/>
+    <circle cx="160" cy="160" r="114" fill="none" stroke="#aebff4" stroke-width="2" stroke-opacity=".6"/>
+    <circle cx="160" cy="160" r="66" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity=".8"/>
+    <path d="M160 46L241 216L97 251Z" fill="#b7791f" fill-opacity=".70" stroke="#f5d28e" stroke-width="2"/>
+    <circle cx="160" cy="46" r="9" fill="#ffffff"/>
+    <circle cx="241" cy="216" r="9" fill="#ffffff"/>
+    <circle cx="97" cy="251" r="9" fill="#ffffff"/>
+    <text x="160" y="382" text-anchor="middle" fill="#d7dff3" font-family="Segoe UI,Arial,sans-serif" font-size="18">FACTS → SCORES → ACTION</text>
+  </g>
+</svg>

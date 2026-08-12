@@ -1,0 +1,4 @@
+interface:
+  display_name: "Industry Intelligence Analyzer"
+  short_description: "Evidence-gated industry research and opportunity scoring"
+  default_prompt: "Analyze this industry or brand into a decision-ready report with traceable sources, market sizing, competition, opportunities, and validation."
